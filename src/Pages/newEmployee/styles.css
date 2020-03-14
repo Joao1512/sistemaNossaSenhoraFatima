@@ -1,0 +1,46 @@
+.employeeWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.employeeWrapper p {
+    font-size: 36px;
+    color: #111074;
+    margin: 40px auto 64px auto;
+}
+
+.employeeWrapper .btn {
+    background: #6202EE !important;
+    width: 360px;
+    height: 48px;
+    font-size: 18px !important;
+    color: #ffffff !important;
+}
+
+.employeeForm {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1024px) {
+    .employeeForm {
+        height: 340px;
+        align-content: center;
+        width: 300px;
+    }
+    .MuiFormControl-marginNormal {
+        margin-right: 20px !important;
+    }
+}
+
+.cpfphoneWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#outlined-required {
+    color: #323295de;
+}

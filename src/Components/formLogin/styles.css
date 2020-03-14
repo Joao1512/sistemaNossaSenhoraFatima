@@ -1,0 +1,61 @@
+.btn{
+    background: #111074 !important;
+    color: #ffffff !important;
+}
+.formWrapper {
+    background: #111074 !important;
+    text-align: center;
+    width: 643px;
+    min-height: 471px;
+    border-radius: 20px !important;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.13) !important;
+}
+.title{
+    color: #fefefe;
+    font-size: 36px;
+    margin: 64px auto;
+  }
+.spanLogin{
+    color: #fefefe;
+    font-size: 32px;
+    display:flex;
+    justify-content: flex-start;
+    margin-left: 64px;
+}
+.formLogin{
+    display:flex;
+    justify-content: flex-start;
+    margin: 8px 64px 32px 64px;
+    
+}
+.form{
+    border-style: solid;
+    border-color:#323295;
+    padding: 16px;
+    font-family: Roboto Condensed;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.45);
+    background-color: #323295;
+    border-radius: 12px;
+    width: 100%;
+    outline: none;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    margin: 36px 64px 64px 64px;
+}
+.btn{
+    background: #fefefe !important;
+    padding: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px !important;
+    color: #111074 !important;
+}
+.linkForget{
+    color:#fefefe;
+    font-size: 16px;
+}

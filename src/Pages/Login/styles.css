@@ -1,0 +1,23 @@
+.containerWrapper{
+    background: #323295;
+    height: 100vh;
+}
+header{
+    background: #111074;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+header span {
+    color: #fefefefe;
+    font-size: 24px;
+    margin: 32px auto 32px 32px;
+    font-weight: 600;
+}
+.contentWrapper {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
